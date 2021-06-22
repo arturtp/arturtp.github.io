@@ -1,7 +1,7 @@
 function xadrez(){
 
 var img = window.document.getElementById('imagem')
-img.scr = 'puzzle.jpg'
+img.scr = 'src/imgs/puzzle.jpg'
 
 var chute = window.document.getElementById('lance')
 var resposta = document.getElementById('resposta')
