@@ -45,6 +45,7 @@ function puzzle3(){
     if (chute == "Db2"){
         resposta.innerHTML = 'Xeque-mate! Parabéns, você solucionou o puzzle!'
         img.src = "src/imgs/puzzle4.jpg"
+        document.getElementById('guess').setAttribute("onclick", "null")
     } else if(chute == ""){
         resposta.innerHTML = 'Não dá pra passar a vez!'
     } else {
