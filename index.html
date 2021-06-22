@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artur Pacheco</title>
+    <link rel="stylesheet" href="src/style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Está na hora do puzzle de xadrez.</h1>
+    </header>
+
+
+    <section>
+
+        <div id="puzzle">
+            <img id="imagem" src="src/imgs/puzzle.jpg" alt="Puzzle">
+        </div>
+
+        <div id="input">
+            <p>Vez das Pretas. <br> Qual o melhor movimento?</p> 
+            <input type="text" class ="caixa" name="lance" id="lance">
+            <input type ="button" class ="button" value ="Lance!!!" id="guess" onclick ="puzzle1()">
+            <div id="resposta">
+                <p></p>
+            </div>
+        </div>
+
+        <div id="dica">
+            <p>Dica: O lance deve ser dado em notação algébrica abreviada. Caso não saiba o que é isso, acessa https://pt.wikipedia.org/wiki/Notação_algébrica_de_xadrez aí que eu não sou obrigado.</p>
+        </div>
+
+    </section>
+
+
+
+    <footer>
+        <p>Feito por Tuzin Produções.</p>
+    </footer>
+
+    <script src="src/script.js"></script>
+
+</body>
+</html>
